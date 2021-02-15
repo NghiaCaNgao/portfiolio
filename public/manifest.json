@@ -1,0 +1,48 @@
+{
+    "short_name": "NCN_portfolio",
+    "name": "NCN_P",
+    "description": "My portfolio",
+    "icons": [{
+            "src": "/img/icons/192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "/img/icons/512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        },
+        {
+            "src": "/img/icons/192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "/img/icons/192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "maskable"
+        }
+    ],
+    "background_color": "#674ada",
+    "start_url": "/",
+    "scope": "/",
+    "display": "standalone",
+    "theme_color": "#3367D6",
+    "shortcuts": [{
+            "name": "All my API",
+            "short_name": "API",
+            "description": "See all available api i create",
+            "url": "/api",
+            "icons": [{ "src": "/img/icons/dev_192.png", "sizes": "192x192" }]
+        },
+        {
+            "name": "Contact with me",
+            "short_name": "Contact",
+            "description": "Keep contact with ne",
+            "url": "/contact",
+            "icons": [{ "src": "/img/icons/phone_192.png", "sizes": "192x192" }]
+        }
+    ]
+}

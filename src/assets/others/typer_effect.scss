@@ -1,0 +1,43 @@
+.re-typewriter {
+    animation: re-typing 4s steps(40, end);
+}
+
+.do-typewriter {
+    animation: typing 4s steps(40, end);
+}
+
+.typewriter {
+    max-width: fit-content;
+    h4 {
+        overflow: hidden;
+        border-right: 0.15em solid orange;
+        white-space: nowrap;
+        margin: 0 auto;
+        letter-spacing: 0.15em;
+        max-width: fit-content;
+    }
+}
+
+@keyframes typing {
+    0% {
+        width: 0;
+    }
+    80% {
+        width: 100%;
+    }
+    100% {
+        width: 100%;
+    }
+}
+
+@keyframes re-typing {
+    0% {
+        width: 100%;
+    }
+    20% {
+        width: 100%;
+    }
+    100% {
+        width: 0%;
+    }
+}

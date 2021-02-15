@@ -1,0 +1,107 @@
+// Common class
+.align {
+    display: flex;
+    align-items: center;
+}
+
+// Sec header body
+header {
+    height: 100%;
+    justify-content: space-evenly;
+    flex-direction: column;
+    background-color: #674ada;
+    .hello {
+        justify-content: center;
+        flex-direction: column;
+        h1,
+        h2,
+        h4 {
+            margin: 7px;
+            text-align: center;
+        }
+        h4 {
+            color: #d3d3d3;
+            text-align: start;
+        }
+        h1,
+        h2 {
+            color: white;
+            font-size: 2.5em;
+            letter-spacing: 0.15em;
+        }
+    }
+    .sub-des {
+        padding-right: 30px;
+        h4 {
+            color: #d3d3d3;
+            text-align: end;
+        }
+        [role="button"] {
+            height: 40px;
+            width: fit-content;
+            padding: 0 15px 0 15px;
+            margin-top: 20px;
+            justify-content: center;
+            color: white;
+            background-color: transparent;
+            border-radius: 20px;
+            border: solid white 2px;
+            float: right;
+            transition: all 0.3s;
+            i {
+                transition: all 0.3s;
+                margin-left: 10px;
+            }
+            &:hover {
+                background-color: white;
+                color: black;
+                i {
+                    margin-left: 20px;
+                }
+            }
+        }
+    }
+    .item-deco {
+        height: 150px;
+    }
+    .item-deco-dot {
+        position: absolute;
+        z-index: 0;
+    }
+    .item-deco-dot-1 {
+        height: 230px;
+        top: 100px;
+        right: -50px;
+        transform: rotate(-30deg);
+    }
+    .item-deco-dot-2 {
+        height: 180px;
+        top: 400px;
+        left: 0px;
+        transform: rotate(20deg);
+    }
+}
+
+.a-header {
+    position: relative;
+    height: 100vh;
+    flex-direction: column;
+    display: flex;
+    font-family: "Comfortaa", cursive;
+    overflow: hidden;
+    width: 100vw;
+}
+
+@media (min-width: 800px) {
+    .sub-des {
+        max-width: 40%;
+    }
+    .a-header {
+        background-image: url(https://photobest1.com/wp-content/uploads/2018/10/4k-Ultra-HD-Desktop-Wallpaper-Free-Download-9.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    header {
+        background-color: #674adaad;
+    }
+}
