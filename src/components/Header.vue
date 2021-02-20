@@ -3,22 +3,23 @@
     <ANav> </ANav>
 
     <header class="align">
-      <Hello> </Hello>
-
-      <div class="sub-des">
-        <h4>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit
-          consequatur temporibus aliquam nulla totam ut quidem eaque incidunt id
-          iste necessitatibus laborum amet optio doloremque sit iure, soluta
-          vel. Tempore?
-        </h4>
-        <a role="button" class="align">
-          Discover me <i class="fad fa-long-arrow-alt-right"></i>
-        </a>
+      <div class="text align wow animate__bounceIn">
+        <Hello> </Hello>
+        <div class="sub-des">
+          <h4>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit
+            consequatur temporibus aliquam nulla totam ut quidem eaque incidunt
+            id iste necessitatibus laborum amet optio doloremque sit iure,
+            soluta vel. Tempore?
+          </h4>
+          <a role="button" class="align">
+            Discover me <i class="fad fa-long-arrow-alt-right"></i>
+          </a>
+        </div>
       </div>
 
       <div class="item-deco">
-        <img src="/img/imgs/code.svg" height="100%" />
+        <img src="/img/imgs/code.png" height="100%" />
       </div>
       <div class="item-deco-dot item-deco-dot-1">
         <img src="/img/imgs/dot.png" height="100%" />
